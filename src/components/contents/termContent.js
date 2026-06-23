@@ -164,6 +164,14 @@ const sections = [
             to the App if you violate these Terms or for any other reason deemed
             appropriate.
           </p>
+          <p>
+            If you wish to request deletion of your account and associated data,
+            please visit our{" "}
+            <a href="/delete-account" className="content-link">
+              Request Account Deletion
+            </a>{" "}
+            page.
+          </p>
         </div>
 
         <div id="law" className="section">

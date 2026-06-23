@@ -146,6 +146,14 @@ function PolicyContent() {
               Location Data: You can manage your location data preferences
               through your device settings.
             </li>
+            <li>
+              Account Deletion: You may request the deletion of your account
+              and personal data by visiting our{" "}
+              <a href="/delete-account" className="content-link">
+                Request Account Deletion
+              </a>{" "}
+              page. Requests are processed within 7 business days.
+            </li>
           </ul>
         </div>
 

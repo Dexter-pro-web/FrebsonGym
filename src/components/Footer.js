@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -53,6 +54,13 @@ function Footer() {
         </div>
 
         <hr />
+        <div className="footer-links">
+          <Link to="/policy" className="footer-link">Privacy Policy</Link>
+          <span className="footer-link-sep">|</span>
+          <Link to="/terms" className="footer-link">Terms of Service</Link>
+          <span className="footer-link-sep">|</span>
+          <Link to="/delete-account" className="footer-link">Request Account Deletion</Link>
+        </div>
         <div className="footer2">
           {/* Social Media Icons */}
           <div>
