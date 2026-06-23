@@ -748,6 +748,11 @@ footer {
   line-height: 1.6;
 }
 
+.delete-account-content p,
+.delete-account-content li {
+  text-align: justify;
+}
+
 .disclosure-heading {
   font-size: 22px;
   font-weight: bold;
@@ -765,6 +770,7 @@ footer {
   color: #3d3d3d;
   line-height: 1.6;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 /* Form */
