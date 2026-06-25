@@ -11,6 +11,7 @@ function PolicyContent() {
     },
     { id: "Sharing your Information", title: "Sharing your Information" },
     { id: "Data Security", title: "Data Security" },
+    { id: "Data Retention", title: "Data Retention" },
     { id: "Non Refund Policy", title: "Non Refund Policy" },
     { id: "Your Choices", title: "Your Choices" },
     { id: "Children's Privacy", title: "Children's Privacy" },
@@ -114,8 +115,20 @@ function PolicyContent() {
           </p>
         </div>
 
+        <div id="Data Retention" className="section">
+          <h2>6. Data Retention</h2>
+          <p>
+            We will retain your personal information only for as long as is necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+            <ul>
+              <li>Active Accounts: Data associated with your account is retained for the duration of your active membership and usage of the App.</li>
+              <li>Inactive/Deleted Accounts: Upon a formal account deletion request, your personal data will be deleted or anonymized within 7 business days, except for data we are legally obligated to retain (such as financial records, tax data, and transaction histories, which may be kept for up to 7 years).</li>
+              <li>Usage Data: Technical usage data and logs are retained for a shorter period (typically up to 12 months) for internal analysis and security improvements, unless needed for longer security investigations.</li>
+            </ul>
+          </p>
+        </div>
+
         <div id="Non Refund Policy" className="section">
-          <h2>6. Non Refund Policy</h2>
+          <h2>7. Non Refund Policy</h2>
           <ul>
             <li>
               {" "}
@@ -130,7 +143,7 @@ function PolicyContent() {
         </div>
 
         <div id="Your Choices" className="section">
-          <h2>7. Your Choices</h2>
+          <h2>8. Your Choices</h2>
           <ul>
             <li>
               {" "}
@@ -158,7 +171,7 @@ function PolicyContent() {
         </div>
 
         <div id="Children's Privacy" className="section">
-          <h2>8. Children's Privacy</h2>
+          <h2>9. Children's Privacy</h2>
           <p>
             The App is not intended for children under the age of 13. We do not
             knowingly collect personal information from children under 13. If we
@@ -168,7 +181,7 @@ function PolicyContent() {
         </div>
 
         <div id="Changes to This Privacy Policy" className="section">
-          <h2>9. Changes to This Privacy Policy</h2>
+          <h2>10. Changes to This Privacy Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. We will notify
             you of any significant changes by posting the updated policy in the
@@ -179,7 +192,7 @@ function PolicyContent() {
         </div>
 
         <div id="contact" className="section">
-          <h2>10. Contact Information</h2>
+          <h2>11. Contact Information</h2>
           <p>
             If you have any questions or concerns about these Terms, please
             contact us at:
